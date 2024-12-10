@@ -30,7 +30,7 @@ body
     font-size: 50px;
 }
 
-.containerForm
+.containerFormLogIn
 {
     width: 80vw;
     height: 45vh;
@@ -63,8 +63,9 @@ body
     height: 30px;
 }
 
-#registerLogIn
+#registerLogIn, #registerNextForm
 {
+    color: black;
     width: 12vw;
     background: linear-gradient(blue, rgb(78, 161, 235));
     border-radius: 15px;
@@ -72,12 +73,12 @@ body
     height: 30px;
 }
 
-#registerLogIn:hover
+#registerLogIn:hover, #registerNextForm:hover, #registerRegister
 {
     color:white
 }
 
-#registerLogIn:active
+#registerLogIn:active, #registerNextForm:active
 {
     transform: scale(0.9);
 }
@@ -85,4 +86,42 @@ body
 #name, #nameLabel
 {
     display: none;
+}
+
+.containerNoAccount
+{
+    width: 20vw;
+    height: 45vh;
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#noAccountLabel
+{
+    margin-top: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#registerRegister
+{
+    display: none;
+    color: black;
+    width: 12vw;
+    background: linear-gradient(blue, rgb(78, 161, 235));
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+#registerRegister:hover
+{
+    color:white
+}
+#registerRegister:active
+{
+    transform: scale(0.9);
 }

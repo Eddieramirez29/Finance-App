@@ -10,7 +10,7 @@
     <main class="containerRegister">
         <p id="financeAppTitle">Finance App</p>
 
-        <section class="containerForm">
+        <section class="containerFormLogIn">
             <form action="#" id="form">
                 <label for="name" id="nameLabel">Name:</label>
                 <input type="text" id="name" name="user_name" placeholder="Name"/>
@@ -20,9 +20,18 @@
                 <input type="email" id="password" name="user_password" placeholder="Password"/>
                 <div for="" class="buttonFormContainer">
                     <input type="button" value="Log in" id="registerLogIn">
+                    <input type="button" value="Register" id="registerRegister">
                 </div>
             </form>
+
+            <div class="containerNoAccount">
+                <label for="password" id="noAccountLabel">If you don't have an account, 
+                    you can register here</label>
+                <input type="button" value="Go to register" id="registerNextForm">
+            </div>
         </section>
     </main>
+
+    <script src="./register.js"></script>
 </body>
 </html>
