@@ -125,3 +125,67 @@ body
 {
     transform: scale(0.9);
 }
+
+/* Desktop styles (original version) */
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+    .containerRegister {
+        width: 90vw;
+        height: 90vh;
+    }
+
+    .containerFormLogIn {
+        padding: 20px; /* Internal spacing to avoid border contact */
+    }
+
+    #form {
+        width: 60vw;
+        margin-left: 10px; /* Left margin to prevent touching the edge */
+    }
+
+    #registerLogIn, #registerNextForm, #registerRegister {
+        width: 40%;
+        max-width: 200px;
+        margin-top: 15px;
+    }
+
+    #financeAppTitle {
+        font-size: 40px;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .containerRegister {
+        width: 95vw;
+        height: 100vh;
+    }
+
+    .containerFormLogIn {
+        padding: 30px; /* More spacing on mobile */
+    }
+
+    #form {
+        width: 80vw;
+        margin-left: 10px; /* Prevent touching the left edge */
+    }
+
+    #registerLogIn, #registerNextForm, #registerRegister {
+        width: 60%;
+        max-width: 150px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    #financeAppTitle {
+        font-size: 30px;
+    }
+
+    .containerNoAccount {
+        width: 100%;
+        margin-left: 0;
+        align-items: center;
+    }
+}
+
