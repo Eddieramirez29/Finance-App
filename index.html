@@ -3,35 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinanceApp</title>
-    <link rel="stylesheet" href="./register.css">
+    <title>Finance App</title>
 </head>
 <body>
-    <main class="containerRegister">
-        <p id="financeAppTitle">Finance App</p>
+    <header class="containerOverview">
+        <p id="overview">Overview</p>
+    </header>
 
-        <section class="containerFormLogIn">
-            <form action="#" id="form">
-                <label for="name" id="nameLabel">Name:</label>
-                <input type="text" id="name" name="user_name" placeholder="Name"/>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="user_mail" placeholder="E-mail" />
-                <label for="password">Password:</label>
-                <input type="email" id="password" name="user_password" placeholder="Password"/>
-                <div for="" class="buttonFormContainer">
-                    <input type="button" value="Log in" id="registerLogIn">
-                    <input type="button" value="Register" id="registerRegister">
+    <main class="mainContainer">
+        <section class="currentBalanceContainer">
+            <p id="currentBalance">Current Balance</p>
+            <p id="currentBalanceValue">$0.00</p>
+        </section>
+        <section class="incomeContainer">
+            <p id="income">Income</p>
+            <p id="incomeValue">$0.00</p>
+        </section>
+        <section class="expensesContainer">
+            <p id="expenses">Expenses</p>
+            <p id="expensesValue">$0.00</p>
+        </section>
+
+        <section class="potsContainer">
+            <div class="containerHeader">
+                <p id="pots">Pots</p>
+                <div class="seeDetailsContainer">
+                    <button id="seeDetailsButton">See details</button>
+                    <li>Arrow</li>
                 </div>
-            </form>
+            </div>
 
-            <div class="containerNoAccount">
-                <label for="password" id="noAccountLabel">If you don't have an account, 
-                    you can register here</label>
-                <input type="button" value="Go to register" id="registerNextForm">
+            <div class="containerTotalSaved">
+                <div id="totalSaved">
+                    <img src="#" alt="" id="moneyImage">
+                    <div id="totalSavedMoneyAndTitle">
+                        <p id="totalSavedTitle">Total saved</p>
+                        <p id="totalSavedMoney">$0.00</p>
+                    </div>
+                </div>
+
+                <div id="spents">
+                    <div class="firstContainer">
+                        <div id="1">
+                            <p id="title1">One</p>
+                            <p id="money1">0.00</p>
+                        </div>
+                        <div id="2">
+                            <p id="title2">Two</p>
+                            <p id="money2">0.00</p>
+                        </div>
+                    </div>
+                    <div class="secondContainer">
+                        <div id="3">
+                            <p id="title3">Three</p>
+                            <p id="money3">0.00</p>
+                        </div>
+                        <div id="4">
+                            <p id="title4">Four</p>
+                            <p id="money4">0.00</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section class="transitions">
+            <div class="containerHeaderTransitions">
+                <p id="transitions">Transitions</p>
+                <div class="seeTransitionsContainer">
+                    <button id="seeTransitionsButton">See Transitions</button>
+                    <li>Arrow</li>
+                </div>
+            </div>
+            <!-- #Person 1-->
+<div class="containerPerson1">
+    <div class="profile1">
+        <img src="" alt="" id="personPicture1">
+        <p id="personName1">Emma Richardson</p>
+    </div>
+
+    <div class="financePerson1">
+        <p id="finance1">$0.00</p>
+        <p id="datePerson1">00/00/00</p>
+    </div>
+</div>
+
+<!-- #Person 2-->
+<div class="containerPerson2">
+    <div class="profile2">
+        <img src="" alt="" id="personPicture2">
+        <p id="personName2">Liam Johnson</p>
+    </div>
+
+    <div class="financePerson2">
+        <p id="finance2">$0.00</p>
+        <p id="datePerson2">00/00/00</p>
+    </div>
+</div>
+
+<!-- #Person 3-->
+<div class="containerPerson3">
+    <div class="profile3">
+        <img src="" alt="" id="personPicture3">
+        <p id="personName3">Olivia Brown</p>
+    </div>
+
+    <div class="financePerson3">
+        <p id="finance3">$0.00</p>
+        <p id="datePerson3">00/00/00</p>
+    </div>
+</div>
+
+<!-- #Person 4-->
+<div class="containerPerson4">
+    <div class="profile4">
+        <img src="" alt="" id="personPicture4">
+        <p id="personName4">Noah Smith</p>
+    </div>
+
+    <div class="financePerson4">
+        <p id="finance4">$0.00</p>
+        <p id="datePerson4">00/00/00</p>
+    </div>
+</div>
+
+<!-- #Person 5-->
+<div class="containerPerson5">
+    <div class="profile5">
+        <img src="" alt="" id="personPicture5">
+        <p id="personName5">Ava Davis</p>
+    </div>
+
+    <div class="financePerson5">
+        <p id="finance5">$0.00</p>
+        <p id="datePerson5">00/00/00</p>
+    </div>
+</div>
+
+
     </main>
 
-    <script src="./register.js"></script>
 </body>
 </html>
