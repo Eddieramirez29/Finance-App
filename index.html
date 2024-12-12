@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <title>Finance App</title>
 </head>
 <body>
@@ -36,6 +38,7 @@
             <div class="containerTotalSaved">
                 <div id="totalSaved">
                     <img src="#" alt="" id="moneyImage">
+
                     <div id="totalSavedMoneyAndTitle">
                         <p id="totalSavedTitle">Total saved</p>
                         <p id="totalSavedMoney">$0.00</p>
@@ -44,21 +47,21 @@
 
                 <div id="spents">
                     <div class="firstContainer">
-                        <div id="1">
+                        <div id="one">
                             <p id="title1">One</p>
                             <p id="money1">0.00</p>
                         </div>
-                        <div id="2">
+                        <div id="two">
                             <p id="title2">Two</p>
                             <p id="money2">0.00</p>
                         </div>
                     </div>
                     <div class="secondContainer">
-                        <div id="3">
+                        <div id="three">
                             <p id="title3">Three</p>
                             <p id="money3">0.00</p>
                         </div>
-                        <div id="4">
+                        <div id="four">
                             <p id="title4">Four</p>
                             <p id="money4">0.00</p>
                         </div>
@@ -71,7 +74,7 @@
             <div class="containerHeaderTransitions">
                 <p id="transitions">Transitions</p>
                 <div class="seeTransitionsContainer">
-                    <button id="seeTransitionsButton">See Transitions</button>
+                    <button id="seeTransitionsButton">See Details</button>
                     <li>Arrow</li>
                 </div>
             </div>
@@ -139,9 +142,88 @@
         <p id="datePerson5">00/00/00</p>
     </div>
 </div>
+</section>
+    <!-- #Budgets -->
+    <section class="budgetsContainer">
+        <div class="containerHeaderBudgets">
+            <p id="budgets">Budgets</p>
+            <div class="seeBudgetsContainer">
+                <button id="seeBudgetsButton">See Details</button>
+                <li>Arrow</li>
+            </div>
+        </div>
 
+        <div class="containerGraphics">
+            <div id="circle1">
+                <div id="circle2">
+                    <div id="circle3">
+                        <div class="containerValues">
+                            <p id="amountOfMoney">$0.00</p>
+                            <p id="limit">$0.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div id="budgetsCredits">
+            <div class="firstContainerCredits">
+                <div id="five">
+                    <p id="title5">five</p>
+                    <p id="money5">0.00</p>
+                </div>
+                <div id="six">
+                    <p id="title6">six</p>
+                    <p id="money6">0.00</p>
+                </div>
+            </div>
+            <div class="secondContainerCredits">
+                <div id="seven">
+                    <p id="title7">seven</p>
+                    <p id="money7">0.00</p>
+                </div>
+                <div id="eight">
+                    <p id="title8">eight</p>
+                    <p id="money8">0.00</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="recurringBillsContainer">
+        <div class="containerRecurringBills">
+            <p id="recurringBills">Recurring Bills</p>
+            <div class="seeRecurringBillsContainer">
+                <button id="seeRecurringBillsButton">See Details</button>
+                <li>Arrow</li>
+            </div>
+        </div>
+
+        <section class="recurrentBillingValuesContainer">
+            <div class="containerBilling1">
+                <p id="paidBillName">Paid Bills</p>
+                <p id="paidBillValue">$0.00</p>
+            </div>
+            <div class="containerBilling2">
+                <p id="totalUpcomingName">Total upcoming</p>
+                <p id="totalUpcominglValue">$0.00</p>
+            </div>
+            <div class="containerBilling3">
+                <p id="dueSoonName">Due soon</p>
+                <p id="dueSoonValue">$0.00</p>
+            </div>
+        </section>
+    </section>
     </main>
+
+    <footer class="footerContainer">
+        <div class="icon"><i class="fas fa-home"></i><div id="selected1"></div></div>
+        <div class="icon"><i class="fas fa-arrows-alt-v"></i><div id="selected2"></div></div>
+        <div class="icon"><i class="fas fa-chart-pie"></i><div id="selected3"></div></div>
+        <div class="icon"><i class="fas fa-dollar-sign"></i><div id="selected4"></div></div>
+        <div class="icon"><i class="fas fa-credit-card"></i><div id="selected5"></div></div>
+    </footer>
 
 </body>
 </html>
