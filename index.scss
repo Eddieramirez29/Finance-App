@@ -1,0 +1,55 @@
+$containers-widthSize:425px;
+
+.containerOverview
+{
+    width: $containers-widthSize;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.mainContainer
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    width: $containers-widthSize;
+    height: 100%;
+    background-color: rgb(232, 223, 204);
+}
+
+.currentBalanceContainer, .incomeContainer, .expensesContainer
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: calc($containers-widthSize - 40px);
+    height: 100px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#currentBalance, #income, #expenses
+{
+    color: gray;
+}
+
+#currentBalanceValue, #incomeValue, #expensesValue
+{
+    color: black;
+}
+
+.currentBalanceContainer:hover, .incomeContainer:hover, .expensesContainer:hover
+{
+    background-color: black;
+    #currentBalance, #income, #expenses,
+    #currentBalanceValue, #incomeValue, #expensesValue
+    {
+        color: rgb(255, 255, 255);
+    }
+}
