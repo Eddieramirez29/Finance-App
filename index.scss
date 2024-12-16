@@ -140,3 +140,27 @@ $marginTop-mobile:10px;
 {
     margin-left: 10px;
 }
+
+/*#2.3-Pots spentsContainer*/
+.spentsContainer
+{
+    margin-top: $marginTop-mobile;
+}
+
+.spentsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.firstContainer, .secondContainer {
+    display: contents;
+}
+
+div[id^="one"], div[id^="two"], div[id^="three"], div[id^="four"] {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
