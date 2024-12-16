@@ -43,6 +43,7 @@ $marginTop-mobile:10px;
 #currentBalanceValue, #incomeValue, #expensesValue
 {
     color: black;
+    font-size: 25px;
 }
 
 .currentBalanceContainer:hover, .incomeContainer:hover, .expensesContainer:hover
@@ -57,10 +58,12 @@ $marginTop-mobile:10px;
 
 /*#2-Pots sections*/
 /*From .potsContainer to #seeDetailsButton:hover define the structure of all headers*/
+/*#2.1-Pots sections*/
 .potsContainer
 {
     margin-top: $marginTop-mobile;
     margin-left: 15px;
+    padding-left: 10px;
     width: calc($containers-widthSize - 40px);
     border-radius: 10px;
     background-color: white;
@@ -98,4 +101,42 @@ $marginTop-mobile:10px;
 #seeDetailsButton:hover
 {
     color: rgb(110, 235, 227);
+}
+
+/*#2.2-Pots containerTotalSaved*/
+.containerTotalSaved
+{
+    background-color: rgb(232, 223, 204);
+    border-radius: 10px;
+    width: calc($containers-widthSize - 50px);
+}
+
+#totalSaved
+{
+    width: 50%;
+    padding-left: 10px;
+}
+
+.containerCashIcon
+{
+    display: flex;
+    align-items: center;
+}
+
+#totalSavedMoneyAndTitle
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerSavedAndTitle
+{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#totalSavedTitle, #totalSavedMoney
+{
+    margin-left: 10px;
 }
