@@ -20,9 +20,9 @@
   margin-top: 10px;
   margin-left: 15px;
   width: 385px;
-  height: 100px;
   border-radius: 10px;
   padding-left: 10px;
+  height: 100px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -45,4 +45,45 @@
 .incomeContainer:hover #currentBalanceValue, .incomeContainer:hover #incomeValue, .incomeContainer:hover #expensesValue, .expensesContainer:hover #currentBalance, .expensesContainer:hover #income, .expensesContainer:hover #expenses,
 .expensesContainer:hover #currentBalanceValue, .expensesContainer:hover #incomeValue, .expensesContainer:hover #expensesValue {
   color: rgb(255, 255, 255);
+}
+
+/*#2-Pots sections*/
+/*From .potsContainer to #seeDetailsButton:hover define the structure of all headers*/
+.potsContainer {
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 385px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.containerHeader {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.seeDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#seeDetailsButton {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: start;
+  font-weight: 700;
+}
+
+#seeDetailsButton:hover {
+  color: rgb(110, 235, 227);
 }/*# sourceMappingURL=index.css.map */
