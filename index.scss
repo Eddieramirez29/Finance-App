@@ -166,3 +166,48 @@ div[id^="one"], div[id^="two"], div[id^="three"], div[id^="four"]
     border-radius: 8px;
 }
 
+/*#2.4-Transitions containerTotalSaved*/
+.transitionsContainer
+{
+    margin-top: $marginTop-mobile;
+    margin-left: 15px;
+    padding-left: 10px;
+    width: calc($containers-widthSize - 40px);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.containerHeaderTransitions
+{
+    margin-top: $marginTop-mobile;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.seeTransitionsContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#seeTransitionsButton
+{
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: start;
+    font-weight: 700;
+}
+
+#seeTransitionsButton:hover
+{
+    color: rgb(110, 235, 227);
+}
+

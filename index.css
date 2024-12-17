@@ -142,4 +142,44 @@ div[id^=one], div[id^=two], div[id^=three], div[id^=four] {
   text-align: center;
   padding: 15px;
   border-radius: 8px;
+}
+
+/*#2.4-Transitions containerTotalSaved*/
+.transitionsContainer {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-left: 10px;
+  width: 385px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.containerHeaderTransitions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.seeTransitionsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#seeTransitionsButton {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: start;
+  font-weight: 700;
+}
+
+#seeTransitionsButton:hover {
+  color: rgb(110, 235, 227);
 }/*# sourceMappingURL=index.css.map */
