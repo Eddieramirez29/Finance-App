@@ -9,6 +9,7 @@
 
 .mainContainer {
   margin-top: 10px;
+  padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 10px;
   width: 425px;
@@ -306,4 +307,77 @@ div[id^=five], div[id^=six], div[id^=seven], div[id^=eight] {
   text-align: center;
   padding: 15px;
   border-radius: 8px;
+}
+
+/*#3 recurringBillsContainer */
+.recurringBillsContainer {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-left: 10px;
+  width: 385px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.containerRecurringBills {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.seeRecurringBillsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#seeRecurringBillsButton {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: start;
+  font-weight: 700;
+}
+
+#seeRecurringBillsButton:hover {
+  color: rgb(110, 235, 227);
+}
+
+.recurrentBillingValuesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+  width: 375px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.containerBilling1, .containerBilling2, .containerBilling3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  background-color: rgb(232, 223, 204);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#paidBillValue, #totalUpcominglValue, #dueSoonValue {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(110, 235, 227);
 }/*# sourceMappingURL=index.css.map */
